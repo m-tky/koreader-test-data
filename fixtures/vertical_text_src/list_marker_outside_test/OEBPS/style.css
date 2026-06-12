@@ -1,0 +1,20 @@
+html, body {
+  writing-mode: vertical-rl;
+  -epub-writing-mode: vertical-rl;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+ol {
+  margin: 0;
+  padding: 0 0 0 1.6em;
+  list-style-position: outside;
+  list-style-type: decimal;
+}
+li {
+  margin: 0 0 0.6em 0;
+}
+div.block {
+  margin: 0;
+}

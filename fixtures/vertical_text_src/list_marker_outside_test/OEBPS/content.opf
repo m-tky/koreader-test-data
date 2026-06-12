@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uid">vertical-list-marker-outside-test</dc:identifier>
+    <dc:title>Vertical List Marker Outside Test</dc:title>
+    <dc:language>ja</dc:language>
+    <meta property="dcm:textDirection">vertical-rl</meta>
+  </metadata>
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="text" href="text.xhtml" media-type="application/xhtml+xml"/>
+    <item id="style" href="style.css" media-type="text/css"/>
+  </manifest>
+  <spine>
+    <itemref idref="text"/>
+  </spine>
+</package>
