@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="book-id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="book-id">urn:uuid:vertical-single-image-placement-0001</dc:identifier>
+    <dc:title>vertical single image placement fixture</dc:title>
+    <dc:language>ja</dc:language>
+    <meta name="primary-writing-mode" content="vertical-rl"/>
+  </metadata>
+  <manifest>
+    <item id="text" href="text.xhtml" media-type="application/xhtml+xml"/>
+    <item id="probe" href="probe.xhtml" media-type="application/xhtml+xml"/>
+    <item id="css" href="style.css" media-type="text/css"/>
+    <item id="image" href="image.svg" media-type="image/svg+xml"/>
+  </manifest>
+  <spine page-progression-direction="rtl">
+    <itemref idref="text"/>
+    <itemref idref="probe"/>
+  </spine>
+</package>

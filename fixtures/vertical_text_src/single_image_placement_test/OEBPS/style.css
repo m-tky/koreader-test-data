@@ -1,0 +1,17 @@
+body {
+  display: block;
+  margin: 0 5pt;
+  padding: 0;
+  text-align: center;
+}
+.page-image {
+  display: block;
+  page-break-inside: avoid;
+}
+.page-image img {
+  width: 100%;
+  height: auto;
+}
+.vertical-probe {
+  writing-mode: vertical-rl;
+}
